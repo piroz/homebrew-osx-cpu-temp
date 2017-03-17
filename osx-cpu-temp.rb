@@ -2,7 +2,7 @@ class OsxCpuTemp < Formula
   desc "Outputs current CPU temperature for OSX."
   homepage "https://github.com/lavoiesl/osx-cpu-temp"
   url "https://codeload.github.com/lavoiesl/osx-cpu-temp/zip/master"
-  sha1 "ee9851f664eec15a3fbf4cc392c72fac49f91431"
+  sha256 "c1a142932c19b70fa1e2347204dbb8de1504bcd8c3eb357c772d8757f76dab84"
 
   def install
     system "make"
